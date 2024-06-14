@@ -22,32 +22,14 @@ header div {
     margin: 5px;
 }
 
-h1{
-    display: flex;
-    justify-content: center;
-}
-
-.secciones{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.cuadrados{
-    width: 30%;
-    border: 1px solid rgb(129, 129, 129);
-    text-align: center;
-    padding: 5px;
-    color: rgb(7, 178, 221);
-}
-
-.contenedores{
-    border: 1px solid;
-    padding: 10%;
+body{
+    background-image: url(../img/fondobody.jpg);
+    background-repeat: no-repeat;
+    background-size: 3000px;
 }
 
 main section {
-    margin: 0 auto;
+    margin: 0 auto; 
 }
 
 main section div {
@@ -57,19 +39,21 @@ main section div {
 }
 
 main section div img {
-    width: 20%;
-    height: 0 auto;
-    margin: 20px;
-}
+    width: 30%;
+    height: 300px;
+    margin: 2px;
+} 
 
-h5 {
-    color: rgba(33, 33, 33, 0.7);
-}
+/* .modificaAlto {
+    height: 100px;
+    width:  ;
+    color: black;
+} */
 
 i{
     font-size: 30px;
     margin: 20px;
-}
+} 
 
 .textoimg {
     position: absolute;
@@ -78,18 +62,61 @@ i{
     align-items: center;
     background: rgba(255, 255, 255, 0.7);
     color: black;
+    margin-bottom: -150px;
+    
+}
+
+.welcome{
+    font-size: 25px;
+}
+
+h5 {
+    color: rgba(33, 33, 33, 0.7);
+} 
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.secciones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+}
+
+.cuadrados{
+    width: 30%;
+    border: 1px solid rgb(129, 129, 129);
+    text-align: center;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+}
+
+.cuadrados:hover{
+    all: 0.3s;
+    box-shadow: 0px 0px 6px 0px;
+    color: rgb(7, 178, 221);
+}
+
+.contenedores{
+    border: 1px solid;
+    padding: 10%;
 }
 
 main section .productos {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    
 }
 
 .cajas{
-    width: 30%;
+    width: 25%;
     border: 1px solid rgb(187, 187, 187);
-    margin: 10px; 
+    margin: 5px;
+    background-color: white;
 }
 
 main section div article img{
@@ -102,6 +129,7 @@ main section div article img{
 
 main section div article p{
     margin: 10px;
+    font-size: 1px;
 }
 
 main section article h2{
