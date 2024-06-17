@@ -17,6 +17,7 @@ header {
     z-index: 10;
 }
 
+
 header div {
     display: flex;
     justify-content: center;
