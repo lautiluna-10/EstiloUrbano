@@ -197,6 +197,29 @@ footer {
     text-align: center;
 }
 
+.politicas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px;
+}
+
+.tod{
+    width: 45%;
+    border: 1px solid rgb(187, 187, 187);
+    margin: 5px;
+    background-color: white;
+    font-size: 18px;
+}
+
+.Privacidad{
+    margin: 15px;
+}
+
+ul li{
+    margin: 25px;
+}
+
 @media(max-width: 768px) {
 
     main section div img{
@@ -211,6 +234,13 @@ footer {
 
     .cajas{
         width: 75%;
+        margin: 10px;
+        max-width: 100%;
+        height: 0 auto;
+    }
+
+    .tod{
+        width: 95%;
         margin: 10px;
         max-width: 100%;
         height: 0 auto;
