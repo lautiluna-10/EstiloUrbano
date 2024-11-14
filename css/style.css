@@ -60,7 +60,26 @@ main section div img {
 i{
     font-size: 30px;
     margin: 20px;
-} 
+}
+
+.carousel-image {
+    transition: opacity 0.5s ease-in-out;
+}
+
+.fade-out {
+    opacity: 0;
+}
+
+.fade-in {
+    opacity: 1;
+}
+
+/* Resaltado de las flechas al hacer clic */
+.highlight {
+    color: rgb(7, 178, 221); /* Cambia el color al resaltar */
+    transform: scale(1.2); /* Aumenta el tamaño ligeramente */
+    transition: transform 0.2s, color 0.2s;
+}
 
 .textoimg {
     position: absolute;
