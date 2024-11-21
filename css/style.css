@@ -74,10 +74,10 @@ i{
     opacity: 1;
 }
 
-/* Resaltado de las flechas al hacer clic */
+
 .highlight {
-    color: rgb(7, 178, 221); /* Cambia el color al resaltar */
-    transform: scale(1.2); /* Aumenta el tamaño ligeramente */
+    color: rgb(7, 178, 221); 
+    transform: scale(1.2); 
     transition: transform 0.2s, color 0.2s;
 }
 
